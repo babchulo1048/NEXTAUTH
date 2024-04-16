@@ -10,11 +10,12 @@ export const options = {
       profile(profile) {
         console.log("Profile Github:", profile);
 
-        let userRole = "Github User";
+        // let userRole = "Github User";
 
-        if (profile?.email == "demiseyoel77@gmail.com") {
-          userRole = "admin";
-        }
+        // if (profile?.email == "demiseyoel77@gmail.com") {
+        //   userRole = "admin";
+        // }
+        let userRole = "admin";
 
         return {
           ...profile,
